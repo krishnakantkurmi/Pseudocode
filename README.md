@@ -126,3 +126,103 @@ public class IfElseIfExample {
     }
 }
 
+
+public class dowhile {
+    
+    public static void main(String[] args) {
+        int i = 1;
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= 5);
+    }
+}
+/*     PSEDUCODE  
+SET i = 1
+DO
+    PRINT i
+    i = i + 1
+WHILE i <= 5 */
+
+    
+
+public class ForLoopExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+/*  PSEDUCODE 
+FOR i = 1 TO 5
+    PRINT i
+END FOR */
+
+public class nestedloop {
+    
+    public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 3; j++) {
+                System.out.println(i + " " + j);
+            }
+        }
+    }
+}
+    
+/* pseducode ==
+FOR i = 1 TO 3
+    FOR j = 1 TO 3
+        PRINT i, j
+    END FOR
+END FOR
+ */
+import java.util.Scanner;
+
+public class sumn {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            sum = sum + i;
+        }
+
+
+
+        System.out.println("Sum = " + sum);
+    }
+}
+
+/* pseducode
+ INPUT n
+SET sum = 0
+
+FOR i = 1 TO n
+    sum = sum + i
+END FOR
+
+PRINT sum */
+
+public class whileloop {
+    
+    public static void main(String[] args) {
+        int i = 1;
+        while (i <= 5) {
+            System.out.println(i);
+            i++;
+        }
+    }
+}
+    
+/*  PSEDUCODE 
+  SET i = 1
+WHILE i <= 5
+    PRINT i
+    i = i + 1
+END WHILE */
+
+
+
