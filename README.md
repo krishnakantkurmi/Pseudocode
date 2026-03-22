@@ -60,3 +60,69 @@ START
    ELSE
        PRINT "Not Palindrome"
 END
+
+
+
+Conditional Statements (if-else)
+
+Pseudocode
+IF number > 0
+    PRINT "Positive"
+END IF
+
+code == 
+public class IfExample {
+    public static void main(String[] args) {
+        int number = 5;
+
+        if (number > 0) {
+            System.out.println("Positive");
+        }
+    }
+}
+
+IF - ELSE
+
+ Pseudocode== 
+IF number > 0
+    PRINT "Positive"
+ELSE
+    PRINT "Negative"
+END IF
+code ==
+public class IfElseExample {
+    public static void main(String[] args) {
+        int number = -3;
+
+        if (number > 0) {
+            System.out.println("Positive");
+        } else {
+            System.out.println("Negative");
+        }
+    }
+}
+
+Pseudocode
+IF number > 0
+    PRINT "Positive"
+ELSE IF number == 0
+    PRINT "Zero"
+ELSE
+    PRINT "Negative"
+END IF
+
+code == 
+public class IfElseIfExample {
+    public static void main(String[] args) {
+        int number = 0;
+
+        if (number > 0) {
+            System.out.println("Positive");
+        } else if (number == 0) {
+            System.out.println("Zero");
+        } else {
+            System.out.println("Negative");
+        }
+    }
+}
+
